@@ -40,11 +40,12 @@ button {
 .placeholder {
     color: #E5E7EB;
     background-color: grey;
-    width: 400px;
-    height: 150px;
+    min-width: 400px;
+    min-height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .top-header {
@@ -55,11 +56,16 @@ button {
 .left-a {
     display: flex;
     flex-direction: column;
+    max-width: 450px;
+    
+    gap: 16px;
 }
 
 .a-container {
     display: flex;
     justify-content: center;
+    padding: 16px;
+    gap: 32px;
 }
 
 ul {
