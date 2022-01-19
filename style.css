@@ -39,9 +39,12 @@ button {
 
 .placeholder {
     color: #E5E7EB;
-    align-self: center;
-    justify-self: center;
     background-color: grey;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-header {
@@ -66,3 +69,4 @@ ul {
     margin: 0;
     padding: 0;
 }
+
