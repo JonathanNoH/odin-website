@@ -55,6 +55,7 @@ button {
 .top-header {
     display:flex;
     justify-content: center;
+    padding: 0 17%;
 }
 
 .header-links {
@@ -71,10 +72,11 @@ button {
 
 .a-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     
     gap: 64px;
     margin: 64px 0;
+    padding: 0 17%;
 }
 
 ul {
@@ -133,13 +135,17 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .quote p {
-    max-width: 67%;
+    margin: 0;
+    padding: 0;
+    max-width: 750px;
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
+    font-weight: lighter;
 }
 
 .footer {
