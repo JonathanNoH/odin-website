@@ -136,7 +136,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 50px 17%;
 }
 
 .quote p {
@@ -147,10 +147,17 @@ ul {
     font-size: 36px;
     color: #1F2937;
     font-weight: lighter;
+    
+}
+
+.quote div {
+    align-self: flex-end;
+    font-weight: 500;
 }
 
 .a-box {
     padding: 0 17%;
+    
 }
 
 .action {
